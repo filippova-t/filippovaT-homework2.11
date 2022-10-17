@@ -18,8 +18,6 @@ public class ServiceImpl implements Service {
         basket.addAll (IDs);
     };
 
-
-
     @Override
     public List<Integer> get() {
         return basket;

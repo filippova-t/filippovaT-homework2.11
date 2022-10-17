@@ -22,12 +22,10 @@ public class Controller {
         service.add(IDs);
     }
 
-
     @GetMapping("/get")
     public List<Integer> get () {
         return service.get();
     }
-
 
 
 }
